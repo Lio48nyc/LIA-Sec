@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LIA-Sec: never commit captures or exported reports
+*.pcap
+*.pcapng
+*.cap
+data/captures/
